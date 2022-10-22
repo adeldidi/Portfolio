@@ -1,0 +1,275 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+}
+.hero{ height: 100vh;
+  width: 100%;
+  background-image: linear-gradient(to bottom, rgb(1, 4, 7), rgba(1, 1, 10, 0.425)),url(./ima/306078372_5697820873569442_1899163448597454495_n.jpg);
+  background-size: 30% 300px 500px ;
+ background-position: bottom right;
+ background-repeat: no-repeat;
+}
+
+nav{display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-left: 8%;
+  padding-right: 8%;
+  
+}
+  .logo{
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+
+  }
+  span{
+    color: brown;
+  }
+   nav ul li {list-style-type: none;
+    display: inline-block; 
+    font-size: 12px;
+    letter-spacing: 3px;
+  padding: 10px 10px; }
+ nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  text-transform: capitalize;
+ }
+ nav ul li a:hover {
+  color: brown;
+  transition: .4s;
+ }
+ .btn {
+
+  background-color: brown;
+  color: white;
+  text-decoration: none;
+  border: 2px solid transparent;
+  font-weight: bold;
+  border-radius: 30px;
+  padding: 10px 25px;
+
+ }
+ .content {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+  
+ }
+ .content h1{
+  color: white;
+  font-size: 70px;
+  margin: 0px 0px 10px 0px;
+ }
+ 
+ .content h2{
+  color: white;
+  font-size: 20px;
+  margin: 0px 10px 0px 0px;
+ }
+ .content h3{
+  color: white;
+  font-size: 20px;
+  margin: 0px 0px 10px 0px;
+ }
+
+ .newslatter form input:first-child{
+  width: 380px;
+  height: 40px;
+  border: 5px solid brown;
+  border-radius: 30px;
+  font-style: italic;
+  
+}
+.newslatter form input:last-child{
+  width: 90px;
+  height: 40px;
+  border: 5px solid brown;
+  border-radius: 30px;
+  font-style: italic;
+  color: white;
+  background-color: brown;
+  top :6px;
+  right: 6px;
+}
+.About{ 
+  padding-top: 20px;
+  height: 100vh;
+  width: 100%;
+  background-image:  linear-gradient(to bottom,rgba(1, 1, 10, 0.425), rgb(1, 4, 7) ),url(https://i.insider.com/61e6feef7c6a2000184267c3?width=961&format=jpeg);
+  background-size: 650px 600px;
+  background-color: rgba(1, 1, 10, 0.425);
+ background-repeat: no-repeat;
+ background-position: bottom right;
+}
+
+
+ .about_text {
+  width: 50%;
+  padding-top:150px;
+  padding-left: 50px;
+  
+ }
+ .about_text h2{
+  color: white;
+  font-size: 70px;
+  margin: 0px 0px 10px 0px;
+ }
+ .about_text h3{
+  color: white;
+  font-size: 20px;
+  margin: 0px 100px 10px 0px;
+  
+ }
+ .about_text p{
+  color: white;
+  font-size: 20px;
+  margin: 0px 100px 10px 0px;
+ }
+  button{
+  max-width: 100%;
+  width: 120px;
+  height: 40px;
+  border: 5px solid brown;
+  border-radius: 30px;
+  font-style: italic;
+  color: white;
+  background-color: brown;
+ }
+
+  button :hover{
+  cursor: pointer;
+ }
+ .Skills{ 
+  padding-top: 20px;
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(1, 1, 10, 0.425);
+ 
+}
+.title h2{
+  color: white;
+  font-size: 75px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+.box{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 200px;
+
+}
+.card{
+  height: 365px;
+  width: 335px;
+  padding: 20px 35px;
+  background: #474747;
+  border-radius: 20px;
+  overflow: hidden;
+  position: relative;
+  margin: 10px;
+  text-align: center;
+  color: white;
+}
+.card i{
+  font-size: 50px;
+  display: block;
+  text-align: center;
+  margin: 25px 0px;
+  color: brown;
+}
+h5{
+  color: brown;
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+.pra p{
+color : white;
+font-size:16px ;
+line-height: 27px;
+margin-bottom:25px ;
+}
+.card .button {
+  max-width: 10%;
+  width: 200px;
+  height: 40px;
+  border: 5px solid brown;
+  border-radius: 30px;
+  font-style: italic;
+  color: white;
+  background-color: brown;
+}
+.contact-me {
+  padding-top: 20px;
+  width: 100%;
+  height: 290px;
+  background-image:  linear-gradient(to bottom,rgba(1, 1, 10, 0.425), rgb(1, 4, 7) ),url(https://t3.ftcdn.net/jpg/04/99/95/12/360_F_499951222_ePKPA0EvSdzi6E3km74Bx8jgvunRBCmc.jpg);
+  background-color: #474747 ;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  size: 10px 10px;
+}
+.contact-me p {
+  color: white ;
+  font-size: 30px ;
+  font-weight: bold ;
+  margin-bottom: 25px;
+}
+.contact-me .button-two {
+  max-width: 100%;
+  width: 100px;
+  height: 40px;
+  border: 5px solid brown;
+  border-radius: 30px;
+  font-style: italic;
+  color: white;
+  background-color: brown;
+  text-decoration: none;
+  text-align: center;
+
+}
+footer{
+  position: relative ;
+  width:100% ;
+  height: 400px ;
+  background-color: rgba(1, 1, 10, 0.425);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+   padding-top: 20px;
+}
+
+ .content_1 p{
+  font-size:30 px ;
+  color: white;
+  font-weight:bold ;
+  margin-bottom:20px ;
+}
+.content_1 h2 {
+  margin-left: 0px;
+  color :white;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.social {
+  display: flex;
+}.social a{
+  width: 45px ;
+  height: 45px;
+  display: flex ;
+  align-items: center;
+  justify-content: center;
+  background-color: brown;
+  border-radius: 50%;
+  margin: 22px 20px;
+}

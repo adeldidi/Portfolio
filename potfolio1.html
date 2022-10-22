@@ -2,96 +2,123 @@
 <html>
            <head>
             <meta charset="utf-8">
+             <link rel="stylesheet" href="./portfoli.css">
               <title> my portfolio </title>
               <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+              <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
             </head>  
     
             <body> 
-                <!--create responsive navigation bar-->
-            <nav>
-               <a href="#">Home </a>
-               <a href="#">about </a>
-               <a href="#">work </a>
-               <a href="#">resume </a>
-               <a href="#">contact </a>
-            </nav> 
-               <!--create section about-->
-            <section> 
-                <img src="./ima/306078372_5697820873569442_1899163448597454495_n.jpg" alt="this is Me">
-               <h1> I'm Adel Ghanmi </h1>
-               <p> I'm Adel Air trafic control enginner  <br> with long time experience in this field </p>
+                <div class="hero">
+                    <!--create responsive navigation bar-->
+                    
+                    <nav>
+                       <h2 class="logo"> Portfo<span>lio</span>  </h2>
+                       <ul>
+                          <li><a href="#">Home </a></li>
+                          <li><a href="#">about </a></li>
+                          <li><a href="#">skills </a></li>
+                          <li><a href="#">resume </a></li>
+                          <li><a href="#">contact </a></li>
+                        </ul>
+                         <a href="#" class="btn"> Subscribe</a>
+                        
+                     </nav> 
+                     
+                     <div class="content">
+                        <h1> I'm <span>Adel Ghanmi</span>  </h1>
+                        <h2> I'm an Air trafic control enginner </h2>
+                        <h3> with long time experience in this field </h3>
+                        <div class="newslatter">
+                        <form > 
+                            <input type="email" name="email" id="mail" placeholder="Enter your mail">
+                            <input type="submit" name="submit" value ="let's start">
+                        </form>
+                        </div>
+                     </div>
+                </div>
+               
+           
+              <!--create section About-->
+             <section class="About">
+                <div class="Main">
+                   
+                <div class="about_text">
+                       <h2> About <span>me</span>  </h2>
+                       <h3> Air Trafic controller </h3>
+                       <p > Air traffic control specialists, abbreviated ATCS, are personnel responsible for the safe, orderly, and expeditious flow of air traffic in the global air traffic control system.</p>
+                       <button type="button"> Lest's talk</button>
+                    </div>
+                </div>
+            
             </section>
-              <!--create section work-->
-             <section>
-              <h1> What's an Air Trafic controller </h1>
-              <p> Air traffic control specialists, abbreviated ATCS, are personnel responsible for the safe, orderly, and expeditious flow of air traffic in the global air traffic control system. Usually stationed in air traffic control centers and control towers on the ground, they monitor the position, speed, and altitude of aircraft in their assigned airspace visually and by radar, and give directions to the pilots by radio. The position of air traffic controller is one that requires highly specialized knowledge, skills, and abilities. Controllers apply separation rules to keep aircraft at a safe distance from each other in their area of responsibility and move all aircraft safely and efficiently through their assigned sector of airspace, as well as on the ground. Because controllers have an incredibly large responsibility while on duty (often in aviation, "on position") and make countless real-time decisions on a daily basis, the ATC profession is consistently regarded around the world as one of the most mentally challenging careers, and can be notoriously stressful depending on many variables (equipment, configurations, weather, traffic volume, traffic type, special activities, governmental actions, human factors).</p>
-             <h2> If you are interested please leave some information and i will contact you </h2>
-             <form>
-                <label>Name:</label>
-                <input type="text" name="first name" placeholder="Type your name here" />
-                <br />
-          
-                <label>Phone Number:</label>
-                <input type="number" name="number" value="+216 ** *** ***" />
-                <br />
-          
-                <label>Birth Date:</label>
-                <input type="date" name="birthday" />
-                <br />
-                <label>Email:</label>
-                <input type="email" name="email" placeholder="Type your email" />
-                <input type="submit" value="Submit" />
+              <!--create section Skills-->
+            <section class=" Skills">
+                <div class="title">
+                   <h2> <span>My</span> skills</h2> 
+                </div>
+                <div class="box"> 
+                    <div class="card">
+                        <i class="fa-solid fa-bars"></i> 
+                        <h5> Skils </h5>
+                        <div class="pra">
+                            <p> English ICAO Level 4 <br> Communication <br> Leadrship <br> Web development</p>
+                            <p style="text-align: center;">
+                              <a class="button" href="#"> Read more</a>
+                            </p>
+                        </div>
+                        
+                    </div>
                 
-              </form>
-            </section>
-              <!--create section Resume-->
-            <section>
-                <img src="./ima/Sans titre.png" alt="Adel">
-                <h1> Adel Ghanmi</h1>
-                <p> Ingènieur en circulation aéirienne </p>
-                <p>Titulaire du diplôme d’ingénieur en circulation aérienne de l’École de l’Aviation de Borj El Amri. J'ai pu acquérir les connaissances scientifiques et techniques nécessaires afin de répondre aux demandes et besoins résolus par un ingénieur officier polyvalent en circulation aérienne. </p>
-                <div> 
-                    <h3>
-                       skills
-                    </h3>
-                    <ul>
-                        <li>Level 5 English ICAO</li>
-                        <li> Leadership </li>
-                        <li> communication </li>
-                        <li>web development </li>
-                    </ul>
-                    <h3> 
-                        Education 
-                    </h3>
-                    <ul>
-                        <li>High school Ibn mandhour Mornaguya </li>
-                        <li> Preparatory Institute for Engineering Studies in Tunis </li>
-                        <li> Borj El Amri Aviation School </li>
-                    </ul>
+                 <div class="box"> 
+                    <div class="card">
+                        <i class="fa-regular fa-user"></i> 
+                        <h5> Experience </h5>
+                        <div class="pra">
+                            <p> Ops Chief in Air defenses  <br> ATC in OACA <br> Borj El Amri  Aviation School <br> Air law instructor</p>
+                            <p style="text-align: center;">
+                              <a class="button" href="#"> Read more</a>
+                             </p>
+                        </div>
+                        
+                    </div>
                 </div>
             </section>
-             <!--create section contact-->
-            <section class="contact">
-                <div class="content">
-                    <h2> Contact me </h2>
-                    <p> I'm waiting for you questions don't be shy </p>
+            <!--Create section contact me-->
+            <div class="contact-me">
+                <p>Let me be your Air trafic controller</p>
+                <a class=button-two href="#"> Hire Me </a>
+                
+            </div>
+             <!--create Footer contact-->
+            <footer class="contact">
+                <div class="content_1">
+                    <h2> Adel <span>Ghanmi</span> </h2>
+                    <p> I'm waiting fo you in social media </p>
                 </div>
-                <div class="container">
-                   <div class="box">
+                <div class="social">
+                    <a href="#"> <i class="fa-brands fa-facebook"></i></a>
+                    <a href="#"> <i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                    
+                </div>
+               <!--  <div class="container">
+                   <div class="box2">
                         <div class="icon"><i class="fa fa-envelope" aria-hidden="true"></i> </div>
                             <div class="text">
                                <h3> Email </h3>
-                                <p> adelghanmi51@gmail.com</p>
+                                
+                                <a href="adelghanmi51@gmail.com">adelghanmi51@gmail.com</a>
                              </div>
                    </div> 
-                    <div class="box">
+                    <div class="box2">
                          <div class="icon"><i class="fa fa-mobile" aria-hidden="true"></i></div>
                             <div class="text">
                                 <h3> Phone </h3>
                                  <p> +216 29 722 016</p>
                            </div>
                     </div>
-                    <div class="box">
+                    <div class="box2">
                         <div class="icon"><i class="fa fa-map-marker" aria-hidden="true"></i>
                         </div>
                              <div class="text">
@@ -99,8 +126,9 @@
                                  <p> Borj El Amri Manouba Tunisia</p>
                               </div> 
                     </div>    
-               </div>
+               </div> -->
                 </div>
-            </section>
+                <p>  Copy rights reserved to Adel Ghanmi</p>
+            </footer>
      </body>
 </html>
